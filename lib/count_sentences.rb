@@ -32,7 +32,7 @@ class String
     elsif self.count_sentences = 0
       return 0
     elsif self.split("").count
-      return self.split.count
+      return self
     end
   end
 
