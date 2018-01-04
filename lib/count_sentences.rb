@@ -31,7 +31,7 @@ class String
       return self.split.count
     elsif self.count_sentences = 0
       return 0
-    elsif self.end_with?("")
+    elsif self.split.count("")
       return self.split.count
     end
   end
