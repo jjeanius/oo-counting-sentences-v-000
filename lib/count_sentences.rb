@@ -25,13 +25,13 @@ class String
       false
     end
   end
-
+ 
   def count_sentences
-    if self.count_sentences.split('')
-      puts count_sentences
+    if self.end_with?("!","?",'.')
+      puts  count_sentences
     elsif self.count_sentences == 0
       puts "0"
-    elsif self.split("!",",","?",".").count_sentences
+    elsif self.end_with?("!","?",'.', ",")
       puts count_sentences
     end
   end
