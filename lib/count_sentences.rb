@@ -30,6 +30,7 @@ class String
     if self.split.count
       return self.split.count
     elsif self.count_sentences = 0
+      binding.pry
       return 0
       binding.pry
     elsif self.split.count
