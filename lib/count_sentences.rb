@@ -31,6 +31,7 @@ class String
       return self.split.count
     elsif self.count_sentences = 0
       return 0
+      binding.pry
     elsif self.split.count
       return self
     end
